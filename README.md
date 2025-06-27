@@ -1,30 +1,20 @@
-\#  URL Categorizer
-
-
+\# URL Categorizer
 
 An extensible tool for real-time URL classification.
 
+\- FastAPI REST API with live docs
 
+\- Live blacklists (Steven Black’s hosts, URLHaus malware)
 
-\-  FastAPI REST API with live docs
+\- ML fallback (zero-shot transformer, customizable categories)
 
-\-  Live blacklists (Steven Black’s hosts, URLHaus malware)
+\- Modern Tkinter desktop GUI (with live API logs, single launch)
 
-\-  ML fallback (zero-shot transformer, customizable categories)
+\- Easy local and batch use
 
-\-  Modern Tkinter desktop GUI (with live API logs, single launch)
+* * *
 
-\-  Easy local and batch use
-
-
-
----
-
-
-
-\##  Features
-
-
+\## Features
 
 \- \*\*Hybrid classification\*\*: Combines blacklist lookups with ML content analysis
 
@@ -34,57 +24,44 @@ An extensible tool for real-time URL classification.
 
 \- \*\*Live blacklists\*\*: Downloads latest Steven Black hosts + URLHaus
 
-\- \*\*Open source \& MIT licensed\*\*: Ready for your own extensions!
+\- \*\*Open source & MIT licensed\*\*: Ready for your own extensions!
 
-
-
----
-
-
+* * *
 
 \## Screenshot
 
+* * *
 
-
-
-
----
-
-
-
-\##  Quickstart
-
-
+\## Quickstart
 
 \### 1. Install dependencies
 
-
-
-```bash
-
+```shell
 pip install -r requirements.txt
 ```
 
-### 2. Run the GUI (auto-starts API in background, logs shown live)
+### 2\. Run the GUI (auto-starts API in background, logs shown live)
 
-```bash
+[](https://github.com/Escaroth07/url_categorizer/blob/main/README.md#2-run-the-gui-auto-starts-api-in-background-logs-shown-live)
+
+```shell
 python gui\_app.py
 ```
 
-- The "Categorize" button is enabled when the API is ready.
+*   The "Categorize" button is enabled when the API is ready.
 
 \- All FastAPI logs are visible in the GUI.
 
 \- Enter a URL and click Categorize to see results.
 
-
 ### 3.(Optional) Run API manually
+
+[](https://github.com/Escaroth07/url_categorizer/blob/main/README.md#3optional-run-api-manually)
 
 If you want just the API (e.g., for server/cloud use):
 
-```bash
+```shell
 uvicorn main:app --reload
 ```
 
-API docs at: http://localhost:8000/docs
-
+API docs at: [http://localhost:8000/docs](http://localhost:8000/docs)

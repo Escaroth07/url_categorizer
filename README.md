@@ -45,7 +45,7 @@ pip install -r requirements.txt
 [](https://github.com/Escaroth07/url_categorizer/blob/main/README.md#2-run-the-gui-auto-starts-api-in-background-logs-shown-live)
 
 ```shell
-python gui\_app.py
+python gui_app.py
 ```
 
 *   The "Categorize" button is enabled when the API is ready.

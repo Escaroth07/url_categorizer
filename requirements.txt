@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+aiohttp
+tldextract
+pydantic
+scikit-learn
+transformers
+torch
+python-whois
+joblib
+beautifulsoup4

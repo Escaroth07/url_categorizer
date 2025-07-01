@@ -24,8 +24,6 @@ An extensible tool for real-time URL classification.
 
 \- \*\*Live blacklists\*\*: Downloads latest Steven Black hosts + URLHaus
 
-\- \*\*Open source & MIT licensed\*\*: Ready for your own extensions!
-
 * * *
 
 \## Screenshot

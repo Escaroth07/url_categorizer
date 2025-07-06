@@ -32,7 +32,6 @@ def load_steven_black_blacklists():
 def load_urlhaus_blacklist():
     url = "https://urlhaus.abuse.ch/downloads/csv/"
     resp = requests.get(url)
-    # Remove comment/header lines (start with '#')
     raw = "\n".join([line for line in resp.text.splitlines() if not line.startswith('#')])
     f = StringIO(raw)
     reader = csv.DictReader(f)

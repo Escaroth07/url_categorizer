@@ -43,3 +43,19 @@ An extensible tool for real-time URL classification with hybrid detection method
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Run the GUI
+
+```bash
+python gui_app.py
+```
+
+#### What Happens : 
+- API automatically starts in the background 
+- All FastAPI logs are visible in the GUI  
+- **Categorize** button enables when API is ready  
+- Enter any URL and click "Categorize" to see results
+
+
+

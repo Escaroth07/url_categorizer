@@ -1,6 +1,6 @@
 URL Categorizer
 An extensible tool for real-time URL classification with hybrid detection methods.
-🚀 Features
+Features
 
 FastAPI REST API with interactive documentation
 Live blacklists integration (Steven Black's hosts, URLHaus malware)
@@ -8,7 +8,7 @@ ML fallback using zero-shot transformer with customizable categories
 Modern Tkinter GUI with live API logs and single-click launch
 Easy local and batch processing capabilities
 
-🔧 How it Works
+How it Works
 Hybrid Classification System:
 
 Combines blacklist lookups with ML content analysis
@@ -16,9 +16,9 @@ API-first design for web integration and automation
 Modern GUI that shows API logs and auto-launches services
 Live blacklist updates from trusted sources
 
-📸 Screenshot
+Screenshot
 [Add screenshot here]
-🚀 Quick Start
+Quick Start
 Prerequisites
 
 Python 3.7+
@@ -40,7 +40,7 @@ Enter any URL and click "Categorize" to see results
 For server/cloud deployments or API-only usage:
 bashuvicorn main:app --reload
 API Documentation: http://localhost:8000/docs
-📡 API Endpoints
+API Endpoints
 Categorize URL
 httpPOST /categorize
 Content-Type: application/json

@@ -9,7 +9,7 @@ An extensible tool for real-time URL classification with hybrid detection method
 - **FastAPI REST API** with interactive documentation  
 - **Live blacklists integration** (Steven Black's hosts, URLHaus malware)  
 - **ML fallback** using zero-shot transformer with customizable categories  
-- **Modern Tkinter GUI** with live API logs and single-click launch  
+- **Tkinter GUI** with live API logs and single-click launch  
 - **Easy local and batch processing capabilities**
 
 ---
@@ -19,7 +19,7 @@ An extensible tool for real-time URL classification with hybrid detection method
 **Hybrid Classification System:**
 - Combines blacklist lookups with ML content analysis  
 - API-first design for web integration and automation  
-- Modern GUI that shows API logs and auto-launches services  
+- GUI that shows API logs and auto-launches services  
 - Live blacklist updates from trusted sources
 
 ---

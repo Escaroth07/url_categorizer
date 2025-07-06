@@ -4,7 +4,7 @@ An extensible tool for real-time URL classification with hybrid detection method
 
 ---
 
-## 🚀 Features
+## Features
 
 - **FastAPI REST API** with interactive documentation  
 - **Live blacklists integration** (Steven Black's hosts, URLHaus malware)  
@@ -14,7 +14,7 @@ An extensible tool for real-time URL classification with hybrid detection method
 
 ---
 
-## 🛠️ How it Works
+## How it Works
 
 **Hybrid Classification System:**
 - Combines blacklist lookups with ML content analysis  
@@ -24,13 +24,13 @@ An extensible tool for real-time URL classification with hybrid detection method
 
 ---
 
-## 📸 Screenshot
+## Screenshot
 
 > _[Add screenshot here]_  
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
 

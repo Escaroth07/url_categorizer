@@ -57,5 +57,12 @@ python gui_app.py
 - **Categorize** button enables when API is ready  
 - Enter any URL and click "Categorize" to see results
 
+### 3. Manual API Usage(Optional)
 
+For server/cloud deployments or API-only usage:
+
+```bash
+uvicorn main:app --reload
+```
+- API Documentation: http://localhost:8000/docs
 
